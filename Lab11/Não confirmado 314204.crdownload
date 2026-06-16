@@ -1,0 +1,12 @@
+chances = 0
+numero = 259
+palpite = 0
+while chances != 10:
+    palpite = int(input("Escolha um número de 3 dígitos"))
+    if palpite == 259:
+        print('+')
+    elif palpite == 529 or palpite == 952 or palpite == 592:
+        print('!')
+    else: 
+        print('_')
+    chances += 1

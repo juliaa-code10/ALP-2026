@@ -1,0 +1,17 @@
+resposta = 'S'
+import random
+import time
+while resposta == 'S':
+    resposta = input("Você deseja fazer uma pergunta?")
+    prob = random.randint(1, 10)
+    print("Estou pensando....")
+    time.sleep(2)
+    print("Quase lá...")
+    if prob <=5: 
+        time.sleep(2)
+        resposta = 'SIM'
+    else:
+        time.sleep(2)
+        resposta = 'NÃO'
+if resposta == 'N':
+    print("Obrigada! Tenha um bom dia")

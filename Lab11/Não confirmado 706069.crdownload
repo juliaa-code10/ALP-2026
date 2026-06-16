@@ -1,0 +1,16 @@
+import random
+pontuação1 = 0
+pontuação2 = 0
+palpite1 = input("Jogador 1: Qual o seu palpite para a soma dos dados?")
+palpite2 = input("Jogador 2: Qual o seu palpite para a soma dos dados?")
+print("Rolando os daodos...")
+dado1 = random.randint(1, 6)
+dado2 = random.randint(1, 6)
+print("Resultado:")
+if palpite1 == dado1 + dado2:
+    print("Jogador 1 ganhou / +3 pnts")
+elif palpite2 == dado1 + dado2:
+    print("Jogador 2 ganhou / +3 pnts")
+elif palpite1 == dado1 + dado2 and palpite2 == dado1 + dado2:
+    print("Empate / cada um ganha 2 pnts")
+    

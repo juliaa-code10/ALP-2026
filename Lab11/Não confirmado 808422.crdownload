@@ -1,0 +1,6 @@
+resposta = 'S'
+while resposta != 'N':
+    resposta = input("Você quer saber como manter uma pessoa ingênua ocupada por horas?")
+    if resposta != 'S' and resposta != 'N':
+        print("Resposta inválida")
+print("Obrigada. Tenha um bom dia!")
