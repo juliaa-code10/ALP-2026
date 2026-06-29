@@ -1,0 +1,5 @@
+variavel = input("Digite algo:")
+tipo = type(variavel)
+int()
+float()
+bool()
