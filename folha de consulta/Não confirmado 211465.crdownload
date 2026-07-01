@@ -1,0 +1,4 @@
+for num in range (3):
+    print (f"o dobro de um {num} é:")
+    print (num*2)
+#erro de sintaxe e identação

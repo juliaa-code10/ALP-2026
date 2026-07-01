@@ -1,0 +1,4 @@
+import datetime
+hoje = datetime.datetime.now()
+ano = int(input('que ano vc nasceu?'))
+print(hoje.year, ano, hoje.year-ano)

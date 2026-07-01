@@ -1,0 +1,3 @@
+for i in rage (1,5):
+print (i*2)
+# erro de sintaxe e identação

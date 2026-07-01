@@ -1,0 +1,8 @@
+import random
+numero = random.randint (1,10)
+for i in range (3):
+    n = input('adivinhe o numero')
+    if n == numero:
+        print('correto')
+        break
+    # erro de tipo e sintaxe
